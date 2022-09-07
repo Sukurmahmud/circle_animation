@@ -1,0 +1,81 @@
+body{
+    background: black;
+}
+.lol{
+    width: 330px;
+    height: 330px;
+    border: 5px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left:0;
+    right:0;
+    right: 0;
+    margin:auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background:rgb(40, 201, 40);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left:0;
+    right:0;
+    right: 0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    margin:auto;
+    animation: circle 2s linear infinite;
+    -webkit-animation: circle 2s linear infinite;
+}
+@-webkit-keyframes circle {
+    0%{
+        transform:rotate(0deg)translate(-165px)rotate(0deg);
+        -webkit-transform:rotate(0deg)translate(-165px)rotate(0deg);
+        -moz-transform:rotate(0deg)translate(-165px)rotate(0deg);
+        -ms-transform:rotate(0deg)translate(-165px)rotate(0deg);
+        -o-transform:rotate(0deg)translate(-165px)rotate(0deg);
+    }
+   100%{
+    transform:rotate(360deg)translate(-165px)rotate(-360deg);
+    -webkit-transform:rotate(360deg)translate(-165px)rotate(-360deg);
+    -moz-transform:rotate(360deg)translate(-165px)rotate(-360deg);
+    -ms-transform:rotate(360deg)translate(-165px)rotate(-360deg);
+    -o-transform:rotate(360deg)translate(-165px)rotate(-360deg);
+}
+}
+@keyframes circle{
+    0%{
+        transform: rotate(0deg)translate(-165px)rotate(0deg);
+        -webkit-transform: rotate(0deg)translate(-165px)rotate(0deg);
+        -moz-transform: rotate(0deg)translate(-165px)rotate(0deg);
+        -ms-transform: rotate(0deg)translate(-165px)rotate(0deg);
+        -o-transform: rotate(0deg)translate(-165px)rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg)translate(-165px)rotate(-360deg);
+        -webkit-transform: rotate(360deg)translate(-165px)rotate(-360deg);
+        -moz-transform: rotate(360deg)translate(-165px)rotate(-360deg);
+        -ms-transform: rotate(360deg)translate(-165px)rotate(-360deg);
+        -o-transform: rotate(360deg)translate(-165px)rotate(-360deg);
+    }
+}
+.lol img{
+    width:330px;
+    height:330px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
